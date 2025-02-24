@@ -1,54 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTIFOLIO</title>
-
-    <link rel="stylesheet" href="css/styles.css" />
-
-
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="interface">
 
-        <header class="cabecalho">
+<div id="interface">
 
-            <nav class="menu">
+    <header class="cabecalho">
 
-                <div class="logo">
+    
 
-                    <img src="imagens/logo.png" alt='LOGO' width='400'>
-                </div>
-                <ul>
-                    <li>Home</li>
-                    <li>Serviços</li>
-                    <li>Produtos</li>
-                    <li>Portfólio</li>
-                    <li>Sobre</li>
-                    <li>Contato</li>
-                </ul>
-            </nav>
-        
+        <nav class="menu">
 
-            <div class="titles">
-                <h1 class="title">Entregando Serviços de Qualidade</h1>
-                <h1 class="subtitle">Soluções em T.I</h1>
-                <p class='paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus obcaecati, illo doloribus iusto sit numquam nam laboriosam?</p>
+            <div class="logo">
+                <img src="imagens/logo.png" alt="LOGO" width="150" />
             </div>
 
-            <div class="socialIcons">
-                <a href="#" target="_blank">Twitter</a>
-                <a href="#">Facebook</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Instagram</a>
-            </div>
-        </header>
+            <ul>
+                <li><a hreaf="#">Home</a></li>
+                <li><a hreaf="#">Serviços</a></li>
+                <li><a hreaf="#">Produtos</a></li>
+                <li><a hreaf="#">Portifolio</a></li>
+                <li><a hreaf="#">Sobre</a></li>
+                <li><a hreaf="#">Contato</a></li>
+                
+            </ul>
 
-    </div>
+        </nav>
 
-   
+        <div class="titles">
+
+            <h1 class="titulo">Entregando serviços de qualidade</h1>
+            <h1 class="subtitulo">Soluções em TI</h1>
+
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quibusdam ab in! A, nam voluptas!</p>
+
+        </div>
+
+        <div class="socialIcons">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
+
+
+
+    </header>
+
+</div>
+    
 </body>
 </html>

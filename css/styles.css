@@ -3,26 +3,66 @@
     font-family: Verdana, sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     border: 0;
     vertical-align: baseline;
-
 }
 
-#interface{
+#interface {
     display: block;
     width: 100vw;
-    min-height: 100vw;
+    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
-    
 }
 
-#interface #header.cabecalho {
+#interface header.cabecalho {
     display: block;
     width: 100%;
     height: 100%;
     background-image: url(../imagens/hero-bg.png);
+    color: aliceblue;
+} 
+
+#interface .cabecalho .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+#interface .cabecalho .menu .logo{
+    display: block;
+    width: 150px;
+
+}
+
+#interface .cabecalho .menu .logo img{
+    display: block;
+    width: 100%;
+}
+
+#interface .cabecalho .menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#interface .cabecalho .menu ul li{
+    display: block;
+    margin: 1rem;
+
+}
+
+#interface .cabecalho .menu ul li a{
+    display: block;
+    color: #fafafa;
+    font-size: 1 .9rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
 }
