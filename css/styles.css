@@ -13,6 +13,12 @@
 @font-face {
     font-family: Oswald;
     src: url('../fontes/Oswald/Oswald-VariableFont_wght.ttf')
+}
+
+    @font-face {
+        font-family: Montserrat;
+        src: url('../fontes/Montserrat/static/Montserrat-Regular.ttf')
+    
 
 }
 
@@ -108,11 +114,40 @@
 
 }
  #interface .cabecalho .titles .container-titles{
-    border: 1px solid yellow;
-    width: 62%;
+   /* border: 1px solid yellow;*/
+    width: 60%;
     margin: 0 0 0 auto;
  }
 
  #interface .cabecalho .titles .container-titles h1{
-    font-family: Roboto;
+    font-family: Montserrat;
  }
+
+ #interface .cabecalho .titles .container-titles h1.titulo{
+    font-size: 2.5rem;
+
+ }
+
+    #interface .cabecalho .titles .container-titles h1.subtitulo{
+       color: #9941bf;
+       text-shadow: 0 0 20px rgba(255,255,255,.3);
+       font-size: 2.2rem;
+       margin-bottom: 1rem;
+    }
+
+    #interface .cabecalho .titles .container-titles p.paragrafo{
+        letter-spacing: 2px;
+        line-height: 1.5;
+        font-style: italic;
+    }
+
+    #interface .cabecalho .titles .socialIcons{
+        width: 60%;
+        margin: 2rem 0 0 auto;
+    }
+
+    #interface .cabecalho .titles .socialIcons a{
+        color: #9941bf;
+        padding: .5rem;
+        font-size: 1.2rem;
+    }
