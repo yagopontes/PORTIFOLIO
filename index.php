@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PORTIFOLIO</title>
+    <title>Portifólio</title>
 
     <link rel="stylesheet" href="tools/fontawesome/css/all.css" />
     <link rel="stylesheet" href="css/styles.css" />
+
 </head>
 <body>
 
@@ -17,47 +18,40 @@
         <nav class="menu">
 
             <div class="logo">
-                <img src="imagens/logo.png" alt="LOGO" width="150" />
+                <img src="imagens/logo.png" alt="LOGO" />
             </div>
 
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Serviços</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Portifolio</a></li>
+                <li><a href="#">Portifólio</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
                 <li><a href="#">Restrito</a></li>
-                
             </ul>
 
         </nav>
-
-        <div class="titles">
-
-     <div class="container-titles">
-
-            <h1 class="titulo">Entregando Serviços de Qualidade</h1>
-            <h1 class="subtitulo">Soluções em TI</h1>
-
-            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste necessitatibus neque voluptatum natus nulla.</p>
-
-
         
-         </div>
+        <div class="titles"> <!-- ========================= -->
+            <div class="container-titles">
+                <h1 class="titulo">Entregando Serviços de Qualidade</h1>
+                <h1 class="subtitulo">Soluções em TI</h1>
 
-             <div class="socialIcons">
-              <a href="#"title="visite nosso twitter"><i class="fab fa-twitter"></i></a>
-              <a href="#"title="visite nosso facebook"><i class="fab fa-facebook"></i></a>
-              <a href="#"title="visite nosso linkedin"><i class="fab fa-linkedin"></i></a>
-              <a href="#"title="visite nosso instagram"><i class="fab fa-instagram"></i></a>
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae rerum, necessitatibus quod quaerat mollitia.</p>
+                
             </div>
 
-         </div>
-
+            <div class="socialIcons">
+                <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div> <!-- ========================== -->
+        
     </header>
 
-    <!''=================================================================''>
+    <!-- ========================================================= -->
 
     <main id="corpo">
 
@@ -70,7 +64,7 @@
             </article>
             <article class="servico">
                 <img src="imagens/service-hosting.svg" alt="Hosting">
-                <h3 class="title-servico">WEB Hosting</h3>
+                <h3 class="title-hosting">WEB Hosting</h3>
                 <p class="text-servico">Possimus vel temporibus deleniti repudiandae in similique unde necessitatibus odit corporis nihil soluta, ad repellendus?</p>
             </article>
             <article class="servico">
@@ -98,7 +92,29 @@
 
         <section class="portifolio">
 
+            <h3 class="title-portifolio">Nosso Portifólio</h3>
+            <p class="sub-title">Lorem ipsum dolor sit amet.</p>
 
+            <div class="container-imagens">
+                <a href="#" class="img"style="background-image:url('imagens/product-1.jpg');">
+                    
+                </a>
+                <a href="#" class="img"style="background-image:url('imagens/product-2.jpg');">
+                
+                </a>
+                <a href="#" class="img"style="background-image:url('imagens/product-3.jpg');">
+                  
+                </a>
+                <a href="#" class="img"style="background-image:url('imagens/product-4.jpg');">
+                  
+                </a>
+                <a href="#" class="img"style="background-image:url('imagens/product-5.jpg');">
+                  
+                </a>
+                <a href="#" class="img"style="background-image:url('imagens/product-6.jpg');">
+                  
+                </a>
+            </div>
 
         </section>
 
@@ -110,9 +126,6 @@
 
 
     </main>
-
-
-
 
 </div>
     
