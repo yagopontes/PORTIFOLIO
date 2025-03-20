@@ -209,12 +209,10 @@
 /*==============================================================================================*/
 
 #interface #corpo .portifolio{
-
 display: block;
-
 width: 60%;
 margin: 0 auto;
-padding-top: 10rem ;
+padding: 10rem 0;
 }
 
 #interface #corpo .portifolio .title-portifolio{
@@ -258,3 +256,50 @@ transition: all .2s ease;
 #interface #corpo .portifolio .container-imagens .img:hover{
     background-size: 110%;
 }
+
+/*==============================================================================================*/
+
+#interface #corpo .banner{
+    display: block;
+    width: 100%;
+    background-image: url(../imagens/hero-bg.png);
+    background-size: cover;
+    background-position-y: center;
+ }
+
+
+ #interface #corpo .banner .container-texto{
+    display: block;
+    width: 100%;
+    padding: 6rem 0;
+    text-align: center;
+    color: var(--branco-padrao);
+    background-color: rgba(0,0,0,.6);
+ }
+
+ 
+ #interface #corpo .banner .container-texto .title-banner{
+    display: block;
+    width: 60%;
+    margin: 3rem auto;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Roboto;
+ }
+
+ #interface #corpo .banner .container-texto .txt-banner{
+    display: block;
+    width: 60%;
+    margin: 3rem auto;
+    line-height: 1.5;
+ }
+ 
+
+ #interface #corpo .banner .container-texto .btn-banner{
+    display: block;
+    background-color: var(--azul-padrao);
+    color: var(--branco-padrao);
+    padding:1rem 3rem;
+    margin: 5rem auto;
+    border-radius: 2.5rem;
+ }
