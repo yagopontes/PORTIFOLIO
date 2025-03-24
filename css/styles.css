@@ -296,10 +296,15 @@ transition: all .2s ease;
  
 
  #interface #corpo .banner .container-texto .btn-banner{
-    display: block;
+    
     background-color: var(--azul-padrao);
     color: var(--branco-padrao);
     padding:1rem 3rem;
     margin: 5rem auto;
     border-radius: 2.5rem;
+    text-decoration: none;
+ }
+
+ #interface #corpo .banner .container-texto .btn-banner:hover{
+    background-color: #1a4d91;
  }
