@@ -308,3 +308,113 @@ transition: all .2s ease;
  #interface #corpo .banner .container-texto .btn-banner:hover{
     background-color: #1a4d91;
  }
+
+ /*==============================================================================================*/
+
+#interface #corpo .contato{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10rem 0;
+
+}
+
+#interface #corpo .contato .title-contato{
+ display:block;
+ text-align: center;
+ font-size: 2rem;
+ font-weight: normal;
+ font-family: Roboto;
+ color: var(--azul-padrao);
+ margin-bottom: 1rem;
+
+}
+
+#interface #corpo .contato .sub-title{
+display: block;
+text-align: center;
+font-size: 1.2rem;
+color: #a66b49;
+
+}
+
+#interface #corpo .contato .container-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+
+}
+
+
+#interface #corpo .contato .container-contato .dados-contato{
+    display: block;
+    width: 30%;
+    color: #333;
+
+}
+
+#interface #corpo .contato .container-contato .dados-contato .title-aside{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin: 2rem 0 .5rem 0;
+
+}
+
+#interface #corpo .contato .container-contato .dados-contato .txt-aside{
+    display: block;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+#interface #corpo .contato .container-contato form{
+    display: block;
+    width: 70%;
+}
+
+#interface #corpo .contato .container-contato form .line-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+#interface #corpo .contato .container-contato form .line-form input{
+    width: 48%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0,0,0,.05);
+}
+
+#interface #corpo .contato .container-contato form .line-form input#assunto{
+    width: 100%;
+}
+
+#interface #corpo .contato .container-contato form .line-form textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0,0,0,.05);
+    resize: none;
+
+}
+
+
+#interface #corpo .contato .container-contato form button{
+    background-color: var(--azul-padrao);
+    color: var(--branco-padrao);
+    padding:1rem 3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+
+
+}
+
+
+#interface #corpo .contato .container-contato form button:hover{
+    background-color: #1a4d91;
+}
