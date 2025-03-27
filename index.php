@@ -125,6 +125,7 @@
 
 <p class="txt-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deleniti mollitia eius tempore beatae hic labore et. Iste aliquid facilis, numquam fugiat fugit distinctio qui.</p>
 
+
 <a class="btn-banner">Saiba mais </a>
 
 
@@ -144,6 +145,7 @@
 <p class="sub-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
  
 <div class="container-contato">
+
 
 <aside class="dados-contato">
                     <h4 class="title-aside">Endereço</h4>
@@ -184,68 +186,72 @@
 
     </main>
 
-     <footer id="rodape">
+<!-- ========================================================= -->
 
-          <div class="container-rodape">
+<footer id="rodape">
 
-          <section class="sobre">
+<div class="sombreamento">
 
-<img src="imagens/logo.png" alt="Logo" />
+    <div class="container-rodape">
 
-<p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus deserunt nulla minima hic atque quos.</p>
+        <section class="item-rodape sobre">
 
-<h4 class="title-sobre">Siga-nos</h4>
+            <img src="imagens/logo.png" alt="Logo" />
 
-<div class="social-icons">
-    <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
-    <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
-    <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
-    <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+            <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus deserunt.</p>
+
+            <h4 class="title-sobre">Siga-nos</h4>
+
+            <div class="social-icons">
+                <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </section>
+
+        <section class="item-rodape servicos">
+
+            <h4 class="title-servicos">Serviços</h4>
+
+            <ul>
+                <li><a href="#">Desenvolvimento WEB</a></li>
+                <li><a href="#">WEB Hosting</a></li>
+                <li><a href="#">Mídias Sociais</a></li>
+                <li><a href="#">Aplicações SEO</a></li>
+                <li><a href="#">Computação em Nuvem</a></li>
+                <li><a href="#">Segurança de Dados</a></li>
+            </ul>
+
+        </section>
+
+        <section class="item-rodape contato">
+
+            <h4 class="title-contato">Contatos</h4>
+
+            <div class="container-contato">
+                <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
+                <p class="txt-contatos">33 9 8400-9999</p>
+                <p class="txt-contatos">contato@meusite.com.br</p>
+            </div>
+
+            <h4 class="title-contato">Newsletter</h4>
+            <form action="" method="GET">
+                <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
+
+                <button type="submit"><i class="fab fa-telegram"></i></button>
+            </form>
+
+        </section>
+
+    </div>
+
+    <p class="txt-creditos">Yago Carlos Pontes Ferreira Oliveira &copy; 2025</p>
+
 </div>
 
-</section>
-
-<section class="servicos">
-
-
-</section>
-
-<section class="servicos">
-
-<h4 class="title-servicos">Serviços</h4>
-
-<ul>
-    <li><a href="#">Desenvolvimento WEB</a></li>
-    <li><a href="#">WEB Hosting</a></li>
-    <li><a href="#">Mídias Sociais</a></li>
-    <li><a href="#">Aplicações SEO</a></li>
-    <li><a href="#">Computação em Nuvem</a></li>
-    <li><a href="#">Segurança de Dados</a></li>
-</ul>
-
-</section>
-
-<section class="contato">
-
-<h4 class="title-contato">Contatos</h4>
-
-<p class="txt-contatos">Rua das Margaridas, S/Nº</p>
-<p class="txt-contatos">33 9 8400-9999</p>
-<p class="txt-contatos">contato@meusite.com.br</p>
-
-<h4 class="title-contato">Newsletter</h4>
-<form action="" method="GET">
-    <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
-
-    <button type="submit"><i class="fab fa-telegram"></i></button>
-</form>
-
-</section>
-          </div>
-
-   <p class="txt-creditos">Yago Carlos Pontes Ferreira Oliveira &copy; 2025</p>
-
-     </footer>    
+</footer>    
 
 </div>
     
