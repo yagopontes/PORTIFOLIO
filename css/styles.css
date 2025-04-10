@@ -8,19 +8,19 @@
 
 @font-face {
     font-family: Roboto;
-    src: url('../fontes/static/Roboto-Regular.ttf');
+    src: url('../../fontes/static/Roboto-Regular.ttf');
    /* src: url('../fontes/docallisme_on_street/DOCALLISME\ ON\ STREET.ttf');*/
 
 
 }
 @font-face {
     font-family: Oswald;
-    src: url('../fontes/Oswald/Oswald-VariableFont_wght.ttf')
+    src: url('../../fontes/Oswald/Oswald-VariableFont_wght.ttf')
 }
 
     @font-face {
         font-family: Montserrat;
-        src: url('../fontes/Montserrat/static/Montserrat-Regular.ttf')
+        src: url('../../fontes/Montserrat/static/Montserrat-Regular.ttf')
     
 
 }
@@ -88,9 +88,14 @@
     display: block;
     font-family: Oswald;
     color: var(--branco-padrao);
-    font-size: 1 .9rem;
-    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
     text-decoration: none;
+}
+
+#interface .cabecalho .menu ul li a i{
+    font-size: 1.5rem;
+    margin-right: .5rem;
 }
 
 #interface .cabecalho .menu ul li a::after{
